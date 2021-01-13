@@ -29,7 +29,7 @@ The Sense HAT gives you the humidity measurement as relative humidity. This is w
 
 1. Select `File > New Window` and enter the following code:
 
-    ```python
+```python
 from sense_hat import SenseHat
 
 sense = SenseHat()
@@ -37,7 +37,7 @@ sense.clear()
 
 humidity = sense.get_humidity()
 print(humidity)
-    ```
+```
 
 1. Select `File > Save` and choose a file name for your program.
 
